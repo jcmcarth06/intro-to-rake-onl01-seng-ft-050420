@@ -1,5 +1,5 @@
 namespace : reading do
-  
+
 enddesc 'outputs hello to the terminal'
 task :hello do
   puts "hello from Rake!"
@@ -16,5 +16,3 @@ namespace :db do
     Student.create_table
   end
 end
-
-
